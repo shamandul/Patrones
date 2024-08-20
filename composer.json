@@ -13,5 +13,7 @@
             "email": "shamandul@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
 }
