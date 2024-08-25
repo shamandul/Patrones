@@ -16,7 +16,7 @@ Nos permite crear distintas estrategias y nos pemite tener la diferentes estrate
 
 ## Cadena de responsabilidad
 
-El patrón cadena de responsabilidadnos permite encadenar instancias y objetos entre sí para procesar una petición.
+El patrón cadena de responsabilidad nos permite encadenar instancias y objetos entre sí para procesar una petición.
 
 Cada eslabón de esta cadena puede procesar la petición, delegar el procesamiento a otro eslabón o terminar el procesamiento de la petición.
 
@@ -27,3 +27,15 @@ Básicamente existe tres conceptos para este patrón, el cliente que realiza la 
 Ejemplo
 
 ![Diagrama 3](https://raw.githubusercontent.com/shamandul/Patrones/main/img/diagrama3.png)
+
+## Factory o factoría
+
+Lo bueno de SimpleFactory es que puedes subclasificarlo para implementar diferentes formas de crear objetos.
+
+Para casos simples, esta clase abstracta podría ser simplemente una interfaz.
+
+Este patrón es un patrón de diseño “real” porque logra el principio de inversión de dependencia, también conocido como la “D” en los principios SOLID.
+
+Esto significa que la clase FactoryMethod depende de abstracciones, no de clases concretas. Este es el verdadero truco en comparación con SimpleFactory o StaticFactory.
+
+![Diagrama 3](https://raw.githubusercontent.com/shamandul/Patrones/main/img/diagrama4.png)
