@@ -38,4 +38,14 @@ Este patrón es un patrón de diseño “real” porque logra el principio de in
 
 Esto significa que la clase FactoryMethod depende de abstracciones, no de clases concretas. Este es el verdadero truco en comparación con SimpleFactory o StaticFactory.
 
-![Diagrama 3](https://raw.githubusercontent.com/shamandul/Patrones/main/img/diagrama4.png)
+![Diagrama 4](https://raw.githubusercontent.com/shamandul/Patrones/main/img/diagrama4.png)
+
+## Repository
+
+Media entre el dominio y las capas de mapeo de datos utilizando una interfaz similar a una colección para acceder
+a los objetos del dominio. El repositorio encapsula el conjunto de objetos persistentes en un almacén de datos y las
+operaciones que se realizan sobre ellos, lo que proporciona una vista más orientada a objetos de la capa de persistencia.
+El repositorio también respalda el objetivo de lograr una separación limpia y una dependencia unidireccional entre el
+dominio y las capas de mapeo de datos.
+
+![Diagrama 5](https://raw.githubusercontent.com/shamandul/Patrones/main/img/diagrama5.png)
